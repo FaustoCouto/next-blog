@@ -2,6 +2,7 @@
   "name": "next-blog",
   "version": "0.1.0",
   "private": true,
+  "repository": "https://github.com/FaustoCouto/next-blog.git",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -1,18 +1,18 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Home from '../pages/home/home.js';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
-export default function Home() {
+config.autoAddCss = false
+
+export default function App() {
   return (
-    <div className="container">
+    <>
       <Head>
         <title>Next Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main>
-        <h1 className="title">
-          Welcome to Next Blog by Fausto Couto
-        </h1>
-      </main>
-    </div>
+      <Home />
+    </>
   )
 }

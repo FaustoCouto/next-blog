@@ -1,0 +1,16 @@
+.mainContainer {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b0b0b0;
+}
+
+.iconContainer {
+    padding: 10px;
+}

@@ -8,7 +8,13 @@ export default function Home() {
   return (
     <main className={styles.mainContainer}>
         <header className={styles.headerContainer}>
-          <Search name={"search"} value={search} callback={setSearch} placeholder={"Procurar por um post"} />
+          <Search
+            name={"search"}
+            value={search}
+            onChangeCallback={setSearch}
+            placeholder={"Procurar por um post"}
+            onFilterCallback={() => console.log("pressionou")}
+          />
         </header>
     </main>
   )

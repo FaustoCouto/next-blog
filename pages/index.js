@@ -1,9 +1,7 @@
 import Head from 'next/head';
 import Home from '../pages/home/home.js';
-import { config } from '@fortawesome/fontawesome-svg-core';
-import '@fortawesome/fontawesome-svg-core/styles.css';
 
-config.autoAddCss = false
+import 'material-icons/iconfont/material-icons.css';
 
 export default function App() {
   return (

@@ -1,16 +1,36 @@
 .mainContainer {
     display: flex;
+    width: 100%;
     padding: 10px;
     flex-direction: row;
     align-items: center;
-}
-
-.input {
-    padding: 10px;
+    justify-content: space-between;
     border-radius: 5px;
     border: 1px solid #b0b0b0;
 }
 
-.iconContainer {
+.input {
+    display: flex;
+    flex: 1;
+    padding: 5px 0px;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+}
+
+.searchIconContainer {
+    padding-right: 10px;
+}
+
+.filterIconContainer {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 50%;
     padding: 10px;
+    transition-duration: .2s;
+}
+
+.filterIconContainer:hover {
+    background-color: #f3f3f3;
 }
